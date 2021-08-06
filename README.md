@@ -6,8 +6,7 @@
    - Provide a brief introduction to the course, the Python programming language and practice with the VeroSkills interface.
 
    - Python Origins
-   - ![Guido](./images/guido.png)
-   - ![Monty](./images/monty.jpg)
+
 
 
 
