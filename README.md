@@ -3,17 +3,12 @@
 
 1. [introduction](./lessons/01lesson/index.html)
 
-   - beginnings GvR and Monty Python
-   - why Python?
-     - Python vs. C
-     - Hello, World
-     - strips away complexity
-     - Python is written in C
-     - Reduce complexity
-     - It's everywhere! WD, DS, ML
-   - Veroskills
-     - `print("Hello World")
-     - help(print)
+   - Provide a brief introduction to the course, the Python programming language and practice with the VeroSkills interface.
+
+   - Python Origins
+   - ![Guido](./images/guido.png)
+   - ![Monty](./images/monty.jpg)
+
 
 
 2. [data types](./lessons/02lesson/index.html) 
@@ -64,4 +59,5 @@
 
 
 
+15. [dictionaries](./lessons/14lesson/index.html)
 15. [dictionaries](./lessons/14lesson/index.html)
