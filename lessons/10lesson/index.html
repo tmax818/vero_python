@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>veroSkills – Intro to Python</title>
+
+    <meta name="description" content="Introduction to Python with VeroSkills" />
+    <meta name="author" content="Tyler Maxwell" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../../dist/reset.css" />
+    <link rel="stylesheet" href="../../dist/reveal.css" />
+    <link rel="stylesheet" href="../../dist/theme/black.css" id="theme" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../../plugin/highlight/monokai.css" />
+</head>
+
+<body>
+    <div class="reveal">
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section>
+                <a href="https://revealjs.com">
+                    <img src="../../images/Python-logo.png" alt="python logo" style="
+                height: 180px;
+                margin: 0 auto 4rem auto;
+                background: transparent;
+              " class="demo-logo" />
+                </a>
+                <h3>Introduction to Python</h3>
+            </section>
+
+            <!-- OBJECTIVE -->
+
+            <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+                <h2>Lesson Objective</h2>
+                <p>
+                    Basic understanding of sequences in Python.
+                </p>
+
+                <aside class="notes">
+                    Shhh, these are your private notes 📝
+                </aside>
+            </section>
+
+            <!-- INFORMATION -->
+
+            <section>
+                <h2>Sequences</h2>
+
+                <p>an enumerated collection of objects in which repetitions are allowed and order matters</p>
+  
+
+            </section>
+
+            <!-- CODE -->
+
+
+            <section data-auto-animate>
+            <h2 data-id="code-title">list</h2>
+            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
+                my_list = ["spam", "eggs", "bacon"]
+            </code></pre>
+            </section>
+            <section data-auto-animate>
+            <h2 data-id="code-title">tuple</h2>
+            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
+                my_tuple = ("John", 37, True)
+            </code></pre>
+            </section>
+            <section data-auto-animate>
+            <h2 data-id="code-title">range</h2>
+            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
+                start = 2
+                stop = 100
+                step = 2
+                my_range = range(start, stop, step)
+            </code></pre>
+            </section>
+
+            <section data-auto-animate>
+            <h2 data-id="code-title">Common Sequence Operations</h2>
+            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
+                my_list = ["spam", "eggs", "bacon"]
+                "spam" in my_list
+            </code></pre>
+            </section>
+            <section data-auto-animate>
+            <h2 data-id="code-title">Common Sequence Operations</h2>
+            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
+                my_list = ["spam", "eggs", "bacon"]
+                "spam" in my_list
+                #=> True
+            </code></pre>
+            </section>
+            <section data-auto-animate>
+            <h2 data-id="code-title">Common Sequence Operations</h2>
+            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
+                my_list = ["spam", "eggs", "bacon"]
+                "spam" not in my_list
+            </code></pre>
+            </section>
+            <section data-auto-animate>
+            <h2 data-id="code-title">Common Sequence Operations</h2>
+            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
+                my_list = ["spam", "eggs", "bacon"]
+                "spam" not in my_list
+                #=> False
+            </code></pre>
+            </section>
+            <section data-auto-animate>
+            <h2 data-id="code-title">Common Sequence Operations</h2>
+            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
+                my_numbers = (11, 42, 35, 84, 500)
+                len(my_numbers)
+                min(my_numbers)
+                max(my_numbers)
+            </code></pre>
+            </section>
+            <section data-auto-animate>
+            <h2 data-id="code-title">Common Sequence Operations</h2>
+            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
+                my_numbers = (11, 42, 35, 84, 500)
+                len(my_numbers)
+                #=> 5
+                min(my_numbers)
+                #=> 11
+                max(my_numbers)
+                #=> 500
+            </code></pre>
+            </section>
+        
+            <!-- END SLIDES -->
+                <section data-markdown="notes.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+                    data-separator-notes="^Note:">
+                </section>
+
+         
+
+            <div style="
+            position: absolute;
+            bottom: 1em;
+            left: 18em;
+            width: 5em;
+            height: 2.2em;
+          ">
+                <img class="fragment" src="../../images/logo.svg" width="400" height="400" alt="python logo" style="
+              height: 180px;
+              margin: 0 auto 4rem auto;
+              background: transparent;
+            " class="demo-logo" />
+            </div>
+        </div>
+    </div>
+
+    <script src="../../dist/reveal.js"></script>
+    <script src="../../plugin/zoom/zoom.js"></script>
+    <script src="../../plugin/notes/notes.js"></script>
+    <script src="../../plugin/search/search.js"></script>
+    <script src="../../plugin/markdown/markdown.js"></script>
+    <script src="../../plugin/highlight/highlight.js"></script>
+    <script>
+        // Also available as an ES module, see:
+        // https://revealjs.com/initialization/
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [
+                RevealZoom,
+                RevealNotes,
+                RevealSearch,
+                RevealMarkdown,
+                RevealHighlight,
+            ],
+        });
+    </script>
+</body>
+
+</html>
