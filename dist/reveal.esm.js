@@ -1,6 +1,6 @@
 /*!
-* reveal.js 4.1.1
-* https://revealjs.com
+* reveal.js 4.1.3
+* https://www.tylermaxwell.co/vero_python
 * MIT licensed
 *
 * Copyright (C) 2020 Hakim El Hattab, https://hakim.se
