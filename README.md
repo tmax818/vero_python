@@ -1,3 +1,7 @@
+---
+title: Intro to Python
+...
+
 # VERO_PYTHON
 
 
@@ -42,21 +46,25 @@
    - parameters/arguments
    - scope
 
-11. [sequences](./lessons/10lesson/index.html)
+10. [sequences](./lessons/10lesson/index.html)
 
 
 
-12. [lists](./lessons/11lesson/index.html)
+11. [lists](./lessons/11lesson/index.html)
 
 
-13. [tuples](./lessons/12lesson/index.html)
-
-
-
-14. [ranges and `for`](./lessons/13lesson/index.html)
+12. [tuples](./lessons/12lesson/index.html)
 
 
 
+13. [ranges and `for`](./lessons/13lesson/index.html)
 
-15. [dictionaries](./lessons/14lesson/index.html)
-15. [dictionaries](./lessons/14lesson/index.html)
+
+
+14. [Classes](./lessons/14lesson/index.html)
+
+
+15. [Dictionaries](./lessons/15lesson/index.html)
+
+
+16. [Python Standard Library](./lessons/16lesson/index.html)
