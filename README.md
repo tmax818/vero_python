@@ -7,6 +7,8 @@ title: Intro to Python
 
 1. [introduction](./lessons/01lesson/index.html)
 
+   ## Lesson Objective
+
    - Provide a brief introduction to the course, the Python programming language and practice with the VeroSkills interface.
 
    - Python Origins
@@ -61,10 +63,29 @@ title: Intro to Python
 
 
 
-14. [Classes](./lessons/14lesson/index.html)
+14. [dictionaries](./lessons/14lesson/index.html)
 
 
-15. [Dictionaries](./lessons/15lesson/index.html)
+15. [classes](./lessons/15lesson/index.html)
 
 
 16. [Python Standard Library](./lessons/16lesson/index.html)
+
+   - Introduction to the Python Standard Library
+   - Batteries Included
+   - VERY large library of modules for various programming related tasks
+
+```python
+import webbrowser
+
+webbrowser.open("https://docs.python.org/3/library/")
+```
+
+```python
+
+import urllib.request, json
+
+with urllib.request.urlopen("https://api.coindesk.com/v1/bpi/currentprice.json") as url:
+    data = json.loads(url.read().decode())
+    print(data['bpi']['USD']['rate'])
+```
