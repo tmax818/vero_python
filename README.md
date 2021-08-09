@@ -39,6 +39,7 @@ return 0;
 
 
 2. [data types](./lessons/02lesson/index.html) 
+   - 
 
 
 3. [programming logic](./lessons/03lesson/index.html)
