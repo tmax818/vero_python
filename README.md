@@ -12,7 +12,29 @@ title: Intro to Python
    - Provide a brief introduction to the course, the Python programming language and practice with the VeroSkills interface.
 
    - Python Origins
+     - [Guido van Rossum]("https://gvanrossum.github.io")
+     - Monty Python
+   - Why Python?
+     - reads like English
 
+### Python's Hello, World
+
+```python
+print("Hello, World")
+```
+
+### C's Hello, World
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+puts("Hello, World");
+return 0;
+}
+```
+   - `help(<python keyword>)` to access documents
 
 
 
