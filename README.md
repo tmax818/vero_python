@@ -39,13 +39,63 @@ return 0;
 
 
 2. [data types](./lessons/02lesson/index.html) 
+
+   - #### Python Basic (Scalar) Types
+
+       | Type |example |
+       |---|---|
+       |int| 42|
+       |float|3.14|
+       |None| None|
+       |bool| True, False|
+
    - 
 
 
 3. [programming logic](./lessons/03lesson/index.html)
 
+   - ### Not
+     |p|not p|
+     |---|---|
+     |True|False|
+     |Flase|True|
 
-4. [variables and strings](./lessons/04lesson/index.html)
+   - ### And
+
+     |p|q|p and q|
+     |---|---|:---:|
+     |True|True|True
+     |True|False|False
+     |False|True|False
+     |False|False|False
+
+   - ### Or
+
+     |p|q|p or q|
+     |---|---|:---:|
+     |True|True|True
+     |True|False|True
+     |False|True|True
+     |False|False|False
+
+
+4. [variables](./lessons/04lesson/index.html)
+
+   - a named location in memory
+   - variables:
+      - case-sensitive
+      - begin with a letter or underscore(_)
+      - cannot be a Python keyword
+
+```python
+message = "spam"
+```
+
+```python
+message = "spam"
+print(message)
+#=> 'spam'
+```
 
 
 5. [flow control](./lessons/05lesson/index.html)
@@ -55,7 +105,8 @@ return 0;
 
 
 
-7. [while loop](./lessons/07lesson/index.html)
+7. [while](./lessons/07lesson/index.html)
+   - 
 
 
 
