@@ -25,8 +25,7 @@
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
             <section>
-   
-                    <img src="../../images/Python-logo.png" alt="python logo" style="
+                <img src="../../images/Python-logo.png" alt="python logo" style="
                 height: 180px;
                 margin: 0 auto 4rem auto;
                 background: transparent;
@@ -40,7 +39,7 @@
             <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
                 <h2>Lesson Objective</h2>
                 <p>
-                    understand modules in Python
+                    Introduction to the Python Standard Library
                 </p>
 
                 <aside class="notes">
@@ -51,10 +50,10 @@
             <!-- INFORMATION -->
 
             <section>
-                <h2>module</h2>
+                <h2>Python Standard Library</h2>
 
-                <p class="fragment">a Python file</p>
-    
+                <p class="fragment">Batteries Included</p>
+                <p class="fragment">VERY large library of modules for various programming related tasks</p>
 
 
             </section>
@@ -63,31 +62,20 @@
 
 
             <section data-auto-animate>
-            <h2 data-id="code-title">Modules</h2>
+            <h2 data-id="code-title">Standard Library</h2>
             <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
-                # my_module.py
-                def func():
-                    print("Hello, World!")
+import webbrowser
+webbrowser.open("https://docs.python.org/3/library/")
             </code></pre>
             </section>
 
             <section data-auto-animate>
-            <h2 data-id="code-title">Modules</h2>
-            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
-                # main.py
-                import my_module
+                <pre data-id="code-animation"><code class="python" data-line-numbers>
+import urllib.request, json
 
-                my_module.func()
-            </code></pre>
-            </section>
-            <section data-auto-animate>
-            <h2 data-id="code-title">Modules</h2>
-            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
-                # main.py
-                import my_module
-
-                my_module.func()
-                # "Hello, World!"
+with urllib.request.urlopen("https://api.coindesk.com/v1/bpi/currentprice.json") as url:
+    data = json.loads(url.read().decode())
+    print(data['bpi']['USD']['rate'])
             </code></pre>
             </section>
 

@@ -142,8 +142,9 @@ print(message)
 
 15. [classes](./lessons/15lesson/index.html)
 
+16. [modules](./lessons/16lesson/index.html)
 
-16. [Python Standard Library](./lessons/16lesson/index.html)
+17. [Python Standard Library](./lessons/17lesson/index.html)
 
    - Introduction to the Python Standard Library
    - Batteries Included
