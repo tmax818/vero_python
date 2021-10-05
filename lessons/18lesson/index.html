@@ -25,13 +25,13 @@
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
             <section>
-   
+                <a href="https://revealjs.com">
                     <img src="../../images/Python-logo.png" alt="python logo" style="
                 height: 180px;
                 margin: 0 auto 4rem auto;
                 background: transparent;
               " class="demo-logo" />
-    
+                </a>
                 <h3>Introduction to Python</h3>
             </section>
 
@@ -40,82 +40,61 @@
             <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
                 <h2>Lesson Objective</h2>
                 <p>
-                    understand modules in Python
+                Understand "dunder" methods in Python classes
                 </p>
+
+                <aside class="notes">
+                    Shhh, these are your private notes 📝
+                </aside>
             </section>
 
             <!-- INFORMATION -->
 
             <section>
-                <h2>module</h2>
+                <h2>dunder</h2>
 
-                <p class="fragment">a Python file</p>
-    
-
-
+                <p class="fragment">portmanteau of 
+                    <span class="fragment highlight-red">d</span>ouble and
+                    <span class="fragment highlight-red">under</span>score
+                </p>
+                    <span class="fragment highlight-red">dunder</span>
             </section>
 
             <!-- CODE -->
 
 
             <section data-auto-animate>
-            <h2 data-id="code-title">Modules</h2>
+            <h2 data-id="code-title">Classes</h2>
             <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
-                # my_module.py
-                def func():
-                    print("Hello, World!")
+            class Dog:
+                def __init__(self, name, breed):
+                    self.name = name
+                    self.breed = breed
+            </code></pre>
+            </section>
+            <section data-auto-animate>
+            <h2 data-id="code-title">Classes</h2>
+            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
+            class Dog:
+                def __init__(self, name, breed):
+                    self.name = name
+                    self.breed = breed
+
+            fido = Dog('fido', 'lab')
+            </code></pre>
+            </section>
+            <section data-auto-animate>
+            <h2 data-id="code-title">Classes</h2>
+            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
+            class Dog:
+                def __init__(self, name, breed):
+                    self.name = name
+                    self.breed = breed
+            
+            fido = Dog('fido', 'lab')
             </code></pre>
             </section>
 
-            <section data-auto-animate>
-            <h2 data-id="code-title">Modules</h2>
-            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
-                # main.py
-                import my_module
-
-                my_module.func()
-            </code></pre>
-            </section>
-
-            <section data-auto-animate>
-            <h2 data-id="code-title">Modules</h2>
-            <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
-                # main.py
-                import my_module
-
-                my_module.func()
-                # "Hello, World!"
-            </code></pre>
-            </section>
-
-            <section data-auto-animate>
-                <h2 data-id="code-title">Modules</h2>
-                <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
-                            # main.py
-                            from my_module import func
-            
-                            my_module.func()
-                        </code></pre>
-            </section>
-            <section data-auto-animate>
-                <h2 data-id="code-title">Modules</h2>
-                <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
-                            # main.py
-                            from my_module import func
-            
-                            func()
-                        </code></pre>
-            </section>
-            <section data-auto-animate>
-                <h2 data-id="code-title">Modules</h2>
-                <pre data-id="code-animation"><code class="python" data-trim data-line-numbers>
-                            # main.py
-                            from my_module import func
-            
-                            func()
-                            # "Hello, World!"
-                        </code></pre>
-            </section>
 
             <!-- END SLIDES -->
 
